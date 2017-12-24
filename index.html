@@ -5,6 +5,10 @@
 	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.min.css">
 	<link rel="stylesheet" type="text/css" href="fa/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	
 
 </head>
 <body>
@@ -12,7 +16,7 @@
 		<div id="header">
 			<div id="subheader">
 				<div class="container">
-					<p>Kenyas best online shopping place</p>
+					<img src="images/bk2.png" width="80px" height="50px" style="margin-top: 10px;">
 					<a href="#">Guest</a><a href="#">Consumer</a><a href="#">Download App</a><a href="#">Help</a>
 				</div>
 					<!-- main header -->
@@ -23,14 +27,18 @@
 							<span id="ist">BillKay's</span><span id="iist">Shop.com</span>
 						</div>
 						<div id="search">
-							<form action=""</form>
+							<form action=""></form>
 							<input class="search-area" type="text" name="text" placeholder="Search here">
 							<input class="search-btn" type="submit" name="SUBMIT" value="SEARCH">
 							
 						</div>
-						<div id="user-menu">
-							<li <a href="#">Cart</a></li>
-							<li <a href="#">Login</a></li>
+						<div  id="user-menu" style="margin-right: 30px">
+							<!--<p id="select">Selected Items = 0</p>-->
+							<!--<P id="price">Total Price = 0</P>-->
+							<li id="select"><img src="images/c1.png" width="40px" height="30px"><a href="#">Cart</a></li>
+							<li id="price"><a href="#">Total</li>
+							
+							<!--<li><a href="#">Login</a></li>-->
 							
 						</div>
 					</div>
@@ -50,44 +58,73 @@
 		
         </nav>
 		</div>
-		<div id="slider">
+	</div>
+		<div style=" margin-top: 20px; border-style: ridge;" class="container">
+			
+			<div id="slider">
 			<ul class="bxslider">
-			<li><img src="images/s3.png"></li>	
-			<li><img src="images/l1.jpg" width="600px" height="300px" margin="0 auto"></li>
-			<li><img src="images/p6.jpg" width="600px" height="300px"></li>
-			<li><img src="images/g1.jpg" width="600px" height="300px"></li>
-			<li><img src="images/p8.jpg" width="600px" height="300px"></li>
-			<li><img src="images/p9.jpg" width="600px" height="300px"></li>
-			<li><img src="images/p5.jpg" width="580px" height="300px"></li>
+			<li><img src="images/s3.png" width="700px" height="400px"></li>	
+			<li><img src="images/l1.jpg" width="700px" height="400px" ></li>
+			<li><img src="images/p6.jpg" width="700px" height="400px"></li>
+			<li><img src="images/g1.jpg" width="700px" height="400px"></li>
+			<li><img src="images/p8.jpg" width="700px" height="400px"></li>
+			<li><img src="images/p9.jpg" width="700px" height="400px"></li>
+			<li><img src="images/p5.jpg" width="700px" height="400px"></li>
 			
 		</ul>
+	</div>
+
 			
-		</div>
+  <div class="markets">
+  	<div id="two" >
+  	<a href="#"	class="menu-togglr"><i class="fa fa-barss"></i>
+  <ol>
+	
+	<li><a href="">Phones</a></li>
+	<li><a href="">Phone Cases</a></li>
+	<li><a href="">Chargers</a></li>
+	<li><a href="">Flash Disks</a></li>
+    <li><a href="">selfi Sticks</a></li>
+    <li><a href="">Phone repair</a></li>
+    <li><a href="">Head Phones</a></li>
+    <li><a href="">Glass Protectors</a></li>
+  </ol>
+
+  
+	</div>			
+</div>
+</div>	
+
+<div class="container">
+	<img src="images/s3.jpg" style="height: 90px; width: 960px;">
+	<img src="images/s4.png" style="float: right; background-color: orange; height: 90px;">
+	
+</div>
+	
 <div class="container">
 	<div id="heading-block">
 		<h2>Category</h2>
 	</div>
+
+	
+		
+		
 	<a href="#">
-	<div class="laptop">
-		<img src="images/l2.jpg" width="400px", height="300px", overflow="hidden", position="relative">
+	<div class="laptop" >
+		<img src="images/l2.jpg" width="400px", height="300px", overflow="hidden", position="relative" >
 		<span>Laptops</span>
 		
-	 </div>
+	</div>			 
      </a>
-
-     <a href="#">
+     
+     <a href="#">	
      <div class="laptop">
-
-		<img src="images/pc2.jpg" width="350px", height="300px", overflow="hidden", position="relative">
-		<span>Universal Chargers</span>
-
 		<img src="images/pc2.jpg" width="400px", height="300px", overflow="hidden", position="relative">
+		<div style="width: 400px; height: 300px;  border: 5px solid gray;"></div>
 		<span>Power Bank</span>
-
-
 	 </div>
      </a>
-
+    
      <a href="#">
      <div class="laptop">
 		<img src="images/p1.jpg" width="450px", height="300px", overflow="hidden", position="relative">
@@ -95,6 +132,7 @@
 
 	 </div>
      </a>
+
 
      <a href="#">
      <div class="laptop">
@@ -106,13 +144,29 @@
      </a>
 
 	</div>
-		<div id="heading-block">
+	<div class="container" style="border-top: ridge; border-bottom: ridge;">
+<div class="img" style="margin-top: 30px; margin-bottom: 30px; ">
+	<img class="vl" src="images/s1.png" height="200px" width="700px">
+	<div class="two" style="float: right; font-weight: bold; ">
+	<p style="font-weight: bolder; font-size: 35px; color: black;">Nairobi near Accra Plaza</p>
+	<p style="font-size: 25px; margin-right: 10px; color: black;">welcome All Shop now</p>
+	
+</div>
+
+	
+</div>
+</div>
+
+	<!---Headind-block-->
+		<div id="heading-block" >
 			<h2>Products</h2>
 		</div>
-		<div class="prod-container">
+		<div style="border-style: ridge; max-width: 1200px; height: 800px; border-color: #EEEEEE; margin-top: 60px; margin-bottom: 20px;" class="container5">
+		<div  class="prod-container">
 			<!--first-->
 			<div class="prod-box" >
 				<img src="images/p7.jpg" width="400px" height="200px">
+				<p style="float: left;">good work</p>
 				<div class="prod-trans">
 					<div class="prod-feature" >
 					<p style="color: white;"> Phone Cases	</p>
@@ -124,19 +178,24 @@
 		</div>
 			
 			<!--first-->
+			
 			<div class="prod-box" >
 				<img src="images/fl2.jpg" width="400px">
+
 				<div class="prod-trans">
 					<div class="prod-feature" >
 					<p style="color: white;">Memory Cards</p>
-					<p style="color: white; font-weight: bold;">Price : 1000 Ksh</p>
-					<input type="button" value="Add to Cart">
-						
+					<p style="color: white; font-weight: bold;"></p>
+					<p class="prices" data_value="1000"> 1000$ </p>
+					<button onclick="adcart()">Add to Cart</button>
+			
 					</div>
 					
 				</div>
-				
 			</div>
+				
+
+
 			<!--first-->
 			<div style="background-color: grey" class="prod-box" >
 				<img src="images/h2.png" width="180px" height="200px" margin-right="20px">
@@ -226,7 +285,7 @@
 				
 			</div>
 			<!--first-->
-			<div class="prod-box" >s
+			<div class="prod-box" >
 				<img src="images/p4.jpg" width="350px">
 				<div class="prod-trans">
 					<div class="prod-feature" >
@@ -243,6 +302,10 @@
 	</div>
 
 </div>
+</div>
+
+
+
 <div id="footer">
 	<div class="footer">
 	<h4><a href=https://www.facebook.com/Bri.Kaimba>Facebook</a></h4>
@@ -250,22 +313,23 @@
         <h4>briegrant416@gmail.com</h4>
         <form action="MAILTO:briegeant416@gmail.com" method="post" enctype="text/plain">
           Name:<br>
-          <input type="text" name="name" value="your name">
+          <input type="text" name="name">
           <br>E-mail:<br>
-          <input type="text" name="mail" value="your e-mail">
+          <input type="text" name="mail">
           <br>Comment:<br>
-          <input style="width: 300px; height: 80px;" type="text" name="comment" value="your comment" id="emailForm"><br><br>
+          <input style="width: 300px; height: 80px;" type="text" name="comment" id="emailForm"><br><br>
           <input type="submit" value="Send">
           <input type="reset" value="Reset">
         </form>
     </div>
 </div>
-				
-<script
-  src="http://code.jquery.com/jquery-3.2.1.js"
+
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-  crossorigin="anonymous"></script>
+  crossorigin="anonymous"></script>		
+  <script type="text/javascript" src="jquery.js"></script>
   <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
-  <script type="text/javascript" src="js/scripts.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
 </html>

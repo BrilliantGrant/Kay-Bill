@@ -6,3 +6,18 @@ $ ('.bxslider').bxSlider({
 	});
 
 });
+
+var prices = $ (".prices").attr("data_value");
+var i=0;
+
+function adcart () {
+	i++;
+	document.getElementById("price").innerHTML="Total " +" = " + i * prices;
+
+}
+
+$("button").click(function(){
+	document.getElementById("select").innerHTML="Cart " + " " + i ;
+});                                                                                 
+
+
