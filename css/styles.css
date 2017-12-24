@@ -181,6 +181,7 @@ nav a:hover{
 	height: 250px;
 	overflow: hidden;
 	position: relative;
+	margin-bottom: 20px;
 }
 
 .laptop{
@@ -274,6 +275,7 @@ ol {
     border-bottom: 1px solid #BDBDBD;
     
 }
+
 body{
 	background-color: black;
 }

@@ -12,7 +12,7 @@ var i=0;
 
 function adcart () {
 	i++;
-	document.getElementById("price").innerHTML="Total " +" = " + i * prices;
+	document.getElementById("price").innerHTML="Total: " +" Ksh "+ + i * prices;
 
 }
 
