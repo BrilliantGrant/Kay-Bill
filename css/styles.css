@@ -2,15 +2,16 @@
 	font-family: tahoma;
 }
 .container{
-	width: 90%;
+	width: 1200px;
 	margin: 0 auto;
 }
 #subheader{
 	width: 100%;
 	height: 60px;
-	background: #929fe5;
+	background: white;
 	color: white;
-	margin-top: -5px;
+	margin-top: -1px;
+
 
 
 
@@ -29,13 +30,13 @@
 
 /*logo styling*/
 #main-header{
-	width: 100%;
+	width: 1291px;
 	height: 110px;
-	background: #ab9eed;
+	background: #263238;
 	float: left;
 	margin-right: -5px;
 	margin-left: -5px;
-	margin-top: 6px;
+	margin-top: 0px;
 
 }
 #logo{
@@ -44,7 +45,7 @@
 	float: left;
 }
 #ist{
-	color: black;
+	color: white;
 	font-size: 35px;
 	font-weight: bold;
 	margin-left: 15px;
@@ -52,7 +53,7 @@
 	
 }
 #iist{
-	color: black;
+	color: #29B6F6;
 	font-size: 20px;
 	font-weight: bold;
 	margin-left: 15px;
@@ -78,12 +79,12 @@
 }
 .search-btn{
 	width: 100px;
-	height: 52px;
+	height: 50px;
 	border-radius: 10px;
 	border: none;
 	color: white;
-	background: yellow;
-	margin-left: -130px;
+	background: orange;
+	margin-left: -132px;
 	
 }
 
@@ -100,7 +101,8 @@
 	text-align: center;
 	list-style: none;
 	font-size: 20px;
-	border-left: 1px solid black;
+	
+
 }
 #user-menu li:hover{
 	font-size: 30px;
@@ -111,22 +113,54 @@
 	text-decoration: none;
 }
 /*nav bar*/
-#navigation{
-	width: 100%;
-	height: 35px;
-	background: #ab9eed;
-	float: left;
-	margin-left: -5px;
-	margin-right: -20px;
-	box-shadow: 10px 14px 50px 2px black;
-	margin-top: 5px;
+
+
+
+#navigation ul {
+    
+    margin-right: 25px;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    list-style-type: none;
+    color: black;
+
 }
+
+#navigation li {
+    float: left;
+}
+
+#navigation li a {
+	list-style-type: none;
+    display: block;
+    margin-left: 25px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navigation li a:hover:not(.active) {
+    background-color: #4FC3F7;
+}
+
+#navigation .active {
+    background-color: #0277BD;
+}
+
+
+
+
 nav{
-	width: 1280px;
+	width: 1200px;
 	max-height: 0 auto;
+	margin-bottom: -5px;
+	margin-top: -18px;
+	margin-right: 10px;
 }
 nav a{
-	margin-left: 80px;
+	margin-left: 50px;
 	color: white;
 	text-decoration: none;
 }
@@ -134,13 +168,14 @@ nav a:hover{
 	color: black;
 	transition: all .7 ease;
 }
+
 #slider{
 	width: 65%;
 	max-width: 100%;
 	float: right;
 	margin-right: 100px;
-	margin-top: 20px;
-	margin-left: 10px;
+	margin-top: 10px;
+
 
 
 }
@@ -203,10 +238,11 @@ nav a:hover{
 	float: left;
 	margin: 0 20 30;
 	position: relative;
-	margin-left: 30px;
+	margin-left: 10px;
 	margin-top: 30px;
 	
-	outline: 1px solid black;
+	outline: 1px solid #E0E0E0;
+	box-shadow: 1px
 }
 .prod-box:hover .prod-trans{
 	opacity:1;
@@ -239,7 +275,7 @@ nav a:hover{
 #footer{
 	width: 100%;
 	height: 400px;
-	background: #ab9eed;
+	background: #37474F;
 	float: left;
 	margin-top: 20px;
 	text-align: center;
@@ -252,7 +288,7 @@ nav a:hover{
 .markets{
 	float: left;
 	margin-top: 20px;
-	font-size: 15px;
+	font-size: 20px;
 	width: 80px;
 
 
@@ -262,7 +298,7 @@ ol {
     margin: 0;
     padding: 0;
     width: 250px;
-    background-color: #f1f1f1;
+    
     height: 300px;
     margin-top: 60px;
 }
@@ -276,8 +312,8 @@ ol {
     
 }
 
-body{
-	background-color: black;
+body {
+	background-color: #F5F5F5;
 }
 
 .img:hover img{
