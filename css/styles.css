@@ -241,8 +241,7 @@ nav a:hover{
 	margin-left: 10px;
 	margin-top: 30px;
 	
-	outline: 1px solid #E0E0E0;
-	box-shadow: 1px
+	
 }
 .prod-box:hover .prod-trans{
 	opacity:1;
@@ -319,6 +318,9 @@ body {
 .img:hover img{
 	transform: scale(1.3,1.3);
 	transition: all s.8s ease
-
+}
+.checked {
+    color: orange;
+}
 
  
