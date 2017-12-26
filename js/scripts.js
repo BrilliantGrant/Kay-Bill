@@ -18,7 +18,13 @@ function adcart () {
 
 $("button").click(function(){
 	document.getElementById("select").innerHTML="Cart " + " " + i ;
-});                                                                                 
+}); 
+
+
+
+
+
+
 
 
 

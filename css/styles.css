@@ -240,6 +240,7 @@ nav a:hover{
     font-size: 16px;
     border: none;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -252,7 +253,7 @@ nav a:hover{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: black;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -276,7 +277,7 @@ nav a:hover{
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-    background-color: #4FC3F7;
+    background-color: white;
 }
 
 
@@ -390,8 +391,8 @@ html, body { background: #333 url("https://codepen.io/images/classy_fabric.png")
     display: block;
     margin: 0 auto;
     position: relative;
-    margin-left: -109px;
-    margin-top: -25px;
+    margin-left: -117px;
+    margin-top: -29px;
 }
 
 .slides * {
@@ -414,7 +415,7 @@ html, body { background: #333 url("https://codepen.io/images/classy_fabric.png")
     height: 300px;
     display: block;
     position: absolute;
-    margin-top: 20px;
+    margin-top: 25px;
     transform: scale(0);
     margin-bottom: 20px;
     float: left;
@@ -470,6 +471,7 @@ input:checked + .slide-container .nav label { display: block; }
 	display: block;
 	position: absolute;
 	text-align: center;
+	margin-bottom: 20px;
 
 }
 
@@ -497,4 +499,45 @@ input#img-5:checked ~ .nav-dots label#img-dot-5,
 input#img-6:checked ~ .nav-dots label#img-dot-6 {
 	background: rgba(0, 0, 0, 0.8);
 }
+
+body.notHome{
+  background-color: skyblue
+}
+
+
+
+.navbar{
+  background-color: white;
+  margin-left: -70px;
+  margin-right: 40px;
+}
+
+.navBar{
+  float: left;
+  margin-right: -20px;
+  color: skyblue;
+  padding-top: 12px;
+  margin-left: 50px; 
+}
+
+a{
+  color: black;
+  margin-right: 0px;
+}
+
+.currentLink{
+  color: silver;
+}
+
+
+.lights{
+  color: black;
+}
+
+#octoCat{
+  width: 25px;
+  height: auto;
+}
+
+
  
