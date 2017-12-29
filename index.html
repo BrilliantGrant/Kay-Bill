@@ -8,6 +8,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
 	
 
 </head>
@@ -37,12 +39,28 @@
 						<div id="logo">
 							<span id="ist">BillKay's</span><span id="iist">Shop.com</span>
 						</div>
-						<div id="search">
+						<!--<div id="search">
 							<form action=""></form>
 							<input class="search-area" type="text" name="text" placeholder="Search here">
 							<input class="search-btn" type="submit" name="SUBMIT" value="SEARCH">
 							
-						</div>
+						</div>-->
+						<div>
+							<form action="searc.php" method="post">
+								<!--<div class="input">
+									<input type="text" class="form-control" placeholder="search">
+									<div class="input-group-btn">
+								<button class="btn btn-default" type="submit">
+									<i class="glyphicon glyphicon-search"></i></button>
+										</div>
+									</div>
+								</form>-->
+
+								<input style="margin-right: 20px;" type="submit" id="searchBtn" value="Go!" style="color: black;"/><input type="text" class="form-control" id="searchBar" placeholder="search"  maxlength="25" autocomplete="off" onmousedown="active()" onblur="inactive()" style="color: black;" />
+								
+							</form>
+							</div>
+
 						<div  id="user-menu" style="margin-right: 30px">
 							<!--<p id="select">Selected Items = 0</p>-->
 							<!--<P id="price">Total Price = 0</P>-->
@@ -58,16 +76,17 @@
 			
 		</div>
 		
-<<div class="container">
-			<div id="navigation" style="width: 900px; padding-right: 50px;">
+<div class="container">
+			<div id="navigation" style="width: 900px; padding-right: 80px;">
 
-			<a style="color: black" href="index.html" class="currentLink"><span class="lights">&xoplus;</span> <strong> Home </strong><span class="lights">&xoplus;</span></a>
+			<a style="color: black; font-size: 16px; padding-right: 30px;"  href="index.html" class="currentLink"><span class="lights">&xoplus;</span><strong> Home </strong><span class="lights">&xoplus;</span></a>
 			<div class="dropdown">
-			<a href="new-arrivals.html" class="dropbtn">New arrivals</a>
- 			<a href="deals.html" class="dropbtn">Deals</a> 
- 			<a href="products.html" class="dropbtn">products</a>
- 			<a href="order.html" class="dropbtn">Order</a>
+			<a href="new-arrivals.html" style="font-size: 16px; padding-right: 30px;">New arrivals</a>
+ 			<a href="deals.html" style="font-size: 16px; padding-right: 30px;">Deals</a> 
+ 			<a href="products.html" style="font-size: 16px;padding-right: 30px;" >products</a>
+ 			<a href="order.html" style="font-size: 16px;padding-right: 30px;" >Order</a>
 
+</div>
 </div>
 
 <div class="dropdown">
@@ -246,10 +265,11 @@
 		
 		
 	<a href="#">
-	<div class="laptop" >
+		<div class="vertical-line" style="height: 45px;">
+	<div class="laptop" style=" border-left:1px solid black;" >
 		<img src="images/l2.jpg" width="400px", height="300px", overflow="hidden", position="relative" >
 		<span>Laptops</span>
-		
+	</div>	
 	</div>			 
      </a>
      
@@ -307,13 +327,13 @@
 
 
 	<!---Headind-block-->
-		<div id="heading-block" >
+		<div id="heading-block" style="margin-top: 15px;">
 			<h2>Products</h2>
 		</div>
 		<div  class="container5" style=" margin-top: 20px; >
 		<div  class="prod-container">
 			<!--first-->
-			<div class="prod-box">
+			<div class="prod-box" style="font-size: 15px;">
 				<img src="images/p7.jpg" width="400px" height="200px">
 				<div class="prod-trans">
 					<div class="prod-feature" >
@@ -328,7 +348,7 @@
 	
 			
 			<!--first-->
-			<div class="prod-box">
+			<div class="prod-box" style="font-size: 15px;">
 				<img src="images/fl2.jpg" width="300px" height="200px;">
 
 				<div class="prod-trans">
@@ -345,7 +365,7 @@
 
 
 			<!--first-->
-			<div style="background-color: #F5F5F5" class="prod-box" >
+			<div style="background-color: #F5F5F5" class="prod-box" style="font-size: 15px;" >
 				<img src="images/h2.png" width="180px" height="200px" margin-right="20px">
 				<div class="prod-trans">
 					<div class="prod-feature" >
@@ -360,7 +380,7 @@
 			</div>
 
 			<!--first-->
-			<div class="prod-box">
+			<div class="prod-box" style="font-size: 15px;">
 				
 				<div class="prod-transs">
 					<div class="prod-featurer" style="text-align: center;">
@@ -376,7 +396,7 @@
 			</div>
 			
 		</div>
-		<div class="prod-box">
+		<div class="prod-box" style="font-size: 15px;">
 				
 				<div class="prod-transs" style="text-align: center; font-size: 15px;">
 					<div class="prod-featurer" >
@@ -392,7 +412,7 @@
 			</div>
 			
 		</div>
-		<div class="prod-box">
+		<div class="prod-box" style="font-size: 15px;">
 				
 				<div class="prod-transs" style="text-align: center;">
 					<div class="prod-featurer" >
@@ -410,7 +430,7 @@
 		</div>
 
 			<!--first-->
-			<div class="prod-box" >
+			<div class="prod-box" style="font-size: 15px;" >
 				<img src="images/l4.jpg" width="250px">
 				<div class="prod-trans">
 					<div class="prod-feature" >
@@ -424,7 +444,7 @@
 				
 			</div>
 			<!--first-->
-			<div class="prod-box" >
+			<div class="prod-box" style="font-size: 15px;">
 				<img src="images/pp3.jpg" width="400px" height="200px">
 				<div class="prod-trans">
 					<div class="prod-feature" >
@@ -438,7 +458,7 @@
 			</div>
 				
 			<!--first-->
-			<div class="prod-box" >
+			<div class="prod-box" style="font-size: 15px;">
 				<img src="images/p2.jpg" width="200px">
 				<div class="prod-trans">
 					<div class="prod-feature" >
@@ -452,7 +472,7 @@
 			</div>
 			<div class="prod-box">
 				
-				<div class="prod-transs" style="text-align: center;">
+				<div class="prod-transs" style="text-align: center;" style="font-size: 15px;">
 					<div class="prod-featurer" >
 					<p style="color: #039BE5; text-align: center;">Screen Glass Prtectors </p>
 					<p style="color: #039BE5; font-weight: bold; text-align: center;" class="prices" data_value="500">Ksh 500 </p>
@@ -466,7 +486,7 @@
 			</div>
 			
 		</div>
-		<div class="prod-box">
+		<div class="prod-box" style="font-size: 15px;">
 				
 				<div class="prod-transs" style="text-align: center;">
 					<div class="prod-featurer" >
@@ -482,7 +502,7 @@
 			</div>
 			
 		</div>
-		<div class="prod-box">
+		<div class="prod-box" style="font-size: 15px;">
 				
 				<div class="prod-transs" style="text-align: center;">
 					<div class="prod-featurer" >
@@ -500,7 +520,7 @@
 		</div>
 			
 			<!--first-->
-			<div class="prod-box" >
+			<div class="prod-box" style="font-size: 15px;">
 				<img src="images/pp4.jpg" width="400px" height="200px" margin-right="20px">
 				<div class="prod-trans">
 					<div class="prod-feature" >
@@ -516,7 +536,7 @@
 
 			
 			<!--first-->
-			<div class="prod-box" >
+			<div class="prod-box" style="font-size: 15px;">
 				<img src="images/pc1.jpg">
 				<div class="prod-trans">
 					<div class="prod-feature" >
@@ -545,7 +565,7 @@
 			</div>
 			<div class="prod-box">
 				
-				<div class="prod-transs" style="text-align: center;">
+				<div class="prod-transs" style="text-align: center;font-size: 15px;"">
 					<div class="prod-featurer" >
 					<p style="color: #039BE5; text-align: center;">Laptop Battery</p>
 					<p style="color: #039BE5; font-weight: bold; text-align: center;" class="prices" data_value="500">Ksh 500 </p>
@@ -561,7 +581,7 @@
 		</div>
 		<div class="prod-box">
 				
-				<div class="prod-transs" style="text-align: center;">
+				<div class="prod-transs" style="text-align: center;font-size: 15px;"">
 					<div class="prod-featurer" >
 					<p style="color: #039BE5; text-align: center;">Phone Charger </p>
 					<p style="color: #039BE5; font-weight: bold; text-align: center;" class="prices" data_value="500">Ksh 500 </p>
@@ -577,7 +597,7 @@
 		</div>
 		<div class="prod-box">
 				
-				<div class="prod-transs" style="text-align: center;">
+				<div class="prod-transs" style="text-align: center;font-size: 15px;"">
 					<div class="prod-featurer" >
 					<p style="color: #039BE5; text-align: center;">Laptop Charger </p>
 					<p style="color: #039BE5; font-weight: bold; text-align: center;" class="prices" data_value="500">Ksh 500 </p>
@@ -597,18 +617,18 @@
 </div>
 <div class="container">
 <div class="w1" style="border-top: 1px solid black">
-<img src="images/b5.jpg" style="width: 1200px; height: 120px;">
+<img src="images/b5.jpg" style="width: 1100px; height: 120px;">
 </div>
 </div>
 
 <div id="footer" >
-	<div class="container" style="border-bottom: 1px solid black;">
-	<div class="laptop" style="color: white;">
+	<div class="container" style="border-bottom: 1px solid black; ">
+	<div class="laptop" style="color: white;margin-top: 30px;">
     	<h3><strong>About us</strong></h3>
     	<a href=Billkay.com>About Billkay.com</a>
     </div>
     	
-	<div class="laptop" style="color: white;">
+	<div class="laptop" style="color: white;margin-top: 30px;">
     	<h3><strong>Contact us</strong></h3>
     	<h5><a href=https://www.facebook.com/Bri.Kaimba>Facebook</a></h5>
         <h5><a href=https://www.twitter.com/@Brikaimba>twitter</a></h5>
@@ -616,7 +636,7 @@
         <h5 style="color: white">briegrant416@gmail.com</h5>
     	
     </div>
-    <div class="laptop" style="color: white;">
+    <div class="laptop" style="color: white;margin-top: 30px;">
     	<h3><strong>Services</strong></h3>
     	<h6>Help Center</h6>
     	<h6>Policies & Rules</h6>
@@ -638,7 +658,7 @@
      
 
 
-
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 	<script
   src="https://code.jquery.com/jquery-3.2.1.js"
   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
